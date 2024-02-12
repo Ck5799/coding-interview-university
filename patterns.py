@@ -85,4 +85,3 @@ if __name__ == '__main__':
     pattern_9=diamond(5)
     pattern_10=halfdiamond(5)
     pattern_11=UpsidedownTriangleStar(5)
-
