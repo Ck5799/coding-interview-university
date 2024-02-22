@@ -116,8 +116,15 @@ def inveredalpha(rows):
        charecter=""
        for j in range(rows-i):
         charecter=charecter+chr(ord('A')+j)+" "
-        
+    print("\n")
+
+def trianglealpha(rows):
+    string1=""
+    for i in range(rows):
+        string1=(" "+" "*(rows-(i+1))+"A"+chr(ord('A')+i)+ "A" +" "*(rows-(i+1))+" ")
+        print(string1)
     
+
     
     
         
@@ -148,3 +155,4 @@ if __name__ == '__main__':
     pattern_14=alphatriangle_1(5)
     pattern_15=ascendingtriange(5)
     pattern_16=inveredalpha(5)
+    pattern_17=trianglealpha(6)
